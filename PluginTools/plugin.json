@@ -1,0 +1,21 @@
+{
+  "name":"PluginTools",
+  "api":1,
+  "version":1,
+  "author":"Niklas Kreer",
+  "description":"Plugin-Tools",
+  "load":true,
+  "main":"PluginTools.php",
+  "commands":{
+    "makeplugin":{
+      "usage":"makeplugin <plugin>",
+      "description":"Pack a plugin",
+      "permission":"plugintools.plugins.make"
+    },
+    "extractplugin":{
+      "usage":"extractplugin <plugin>",
+      "description":"Extract a plugin",
+      "permission":"plugintools.plugins.extract"
+    }
+  }
+}
