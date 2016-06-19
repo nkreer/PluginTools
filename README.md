@@ -6,6 +6,15 @@ This is a plugin for the [Fish IRC-Bot](https://github.com/nkreer/fish) that hel
 
 Drop the PluginTools.phar into your _plugins_ directory and restart Fish
 
+## Permissions
+
+You need to be an operator or have these permissions to use the makeplugin and extractplugin commands:
+
+| Permission                  | Description                     |
+|-----------------------------|---------------------------------|
+| plugintools.plugins.make    | Allows the use of makeplugin    |
+| plugintools.plugins.extract | Allows the use of extractplugin |
+
 ## Usage
 
 To pack your plugin, run the **makeplugin** command on your Fish-Bot and pass the name of your plugin.
