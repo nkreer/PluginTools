@@ -1,19 +1,20 @@
 # PluginTools
 
-This is a plugin for the [Fish IRC-Bot](https://github.com/nkreer/fish) that helps with plugin creation.
+This is a plugin for the [Fish IRC-Bot](https://github.com/nkreer/fish) which helps with plugin creation.
 
 ## Installation
 
-Drop the PluginTools.phar into your _plugins_ directory and restart Fish
+Drop the PluginTools.phar into your _plugins_ directory and reload Fish using the `reload` command.
 
 ## Permissions
 
-You need to be an operator or have these permissions to use the makeplugin and extractplugin commands:
+You need to be an admin or have these permissions to use the makeplugin, extractplugin and loadfolderplugin commands:
 
 | Permission                  | Description                     |
 |-----------------------------|---------------------------------|
 | plugintools.plugins.make    | Allows the use of makeplugin    |
 | plugintools.plugins.extract | Allows the use of extractplugin |
+| plugintools.load.folder | Allows the user to load folder plugins |
 
 ## Usage
 
